@@ -11,7 +11,7 @@ if (_G.load == true) then
         Commands = {},
         Functions = {},
         Utilities = {},
-        NormalPrefix = "/"
+        NormalPrefix = "!"
     }
     
     local spawnpos = nil
@@ -19,7 +19,7 @@ if (_G.load == true) then
     local Args = nil
     
     local Settings = {
-        CommandBarPrefix = ";"
+        CommandBarPrefix = "?"
     }
     
     local plr_ = game:GetService("Players").LocalPlayer
